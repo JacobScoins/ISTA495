@@ -5,3 +5,4 @@
   - table columns: id, name, continent, area, population (id is a number and it is the primary key, name and continent are strings, area and population are numbers)
 4. Populate the world table using the csv file included in this folder
 
+my solution was abcdefg
