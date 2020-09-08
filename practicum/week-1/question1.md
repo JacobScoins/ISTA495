@@ -6,17 +6,10 @@
 4. Populate the world table using the csv file included in this folder
 
 create temporary table t (id,country text,population text,yearlychange text,netchange text,area text,migrants text,fertility text,medianage text,urbanpopulation text);
-
 copy t (id,country,population,yearlychange,netchange,area,migrants,fertility,medianage,urbanpopulation)
-
 from 'C:\Program Files (x86)\CSVfile\world.csv'
-
 with (format csv);
-
 insert into world (id, country, population, area, migrants, fertility, medianage, urbanpopulation)
-
 select id, country, population, area, migrants, fertility, medianage, urbanpopulation
-
 from t;
-
 drop table t
