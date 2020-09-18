@@ -3,4 +3,3 @@ Using a SDK of your choice (a list of available SDKs are available here: ([https
 (containerName is the name of the container, localFileName is the name of the local file that you want to upload to your storage, 
 remoteFileName is the name of the file in your storage after it is uploaded to the storage).
 
-h
