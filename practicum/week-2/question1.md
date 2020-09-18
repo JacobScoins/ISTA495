@@ -4,4 +4,5 @@ yourself familiar with Azure Blob Storage
 2. Create a storage account
 3. Upload at least 10 files (images, text,...) into Azure Blob Storage using Azure portal.
 
+hello
 
