@@ -1,0 +1,2 @@
+Delete all the resources that you created on Azure. Make sure you delete all of them because you may be billed if the resources that you
+created consume more capacity that your free subscription provides.
